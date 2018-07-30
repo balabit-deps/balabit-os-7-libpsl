@@ -5,6 +5,14 @@ Uploaders:
  Daniel Kahn Gillmor <dkg@fifthhorseman.net>,
 Build-Depends:
  debhelper (>= 11~),
+ autoconf-archive,
+ automake,
+ gtk-doc-tools,
+ libidn2-0-dev (>=0.16),
+ libunistring-dev,
+ pkg-config,
+ publicsuffix (>= 20150507),
+ python3:any,
 Build-Depends-Arch:
  autoconf-archive,
  automake,
